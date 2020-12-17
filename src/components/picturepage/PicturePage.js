@@ -1,6 +1,5 @@
 import Navbar from "../navbar/Navbar";
 import React from 'react'
-import { Context } from "../../context/Context";
 import { ApiContext } from "../../context/ApiContext";
 import './PicturePage.css'
 import clock from '../../components/images/clock.png'
@@ -10,41 +9,29 @@ import cog from '../../components/images/cog.png'
 import syringe from '../../components/images/syringe.png'
 
 const PicturePage = () => (
-   
-    <Context.Consumer>
-        {(value) => (
-            <ApiContext.Consumer>
-                {(api) => (
-                    <>
-                        <Navbar />
-                        <div className='picture-body'>
-                        <img className='clock-header' src={clock} />
-                        <div className='framediv'>
+    <ApiContext.Consumer>
+        {(api) => (
+            <>
+                <Navbar />
+                <div className='picture-body'>
+                    <img className='clock-header' src={clock} />
+                    <div className='framediv'>
                         <img className='frame' src={frame}/>
-                        
-                        
                         <img src={api.state.randomUrl} id='api-picture' className={api.state.isBlack ? 'black-pic': 'color-pic'}/>
-                        </div>
-                        <div className='btn-container'>
-                        <button className='btn-take-picture' onClick={api.getRandomUrl}>
-                           Take A Picture
-                        </button>
-                        <button className='btn-colour-picture' onClick={api.colorize}>
-                          Colour The Picture
-                        </button>
+                    </div>
+                    <div className='btn-container'>
+                        <button className='btn-take-picture' onClick={api.getRandomUrl}>Take A Picture</button>
+                        <button className='btn-colour-picture' onClick={api.colorize}>Colour The Picture</button>
                         <div className='picture-div'>
                             <img className='syringe' src={syringe} />
                             <img className='dial' src={dial} />
                             <img className='cog' src={cog} />
                         </div>
-                        </div>
-                        
-                        </div>
-                    </>
-                )}
-            </ApiContext.Consumer>
+                    </div> 
+                </div>
+            </>
         )}
-    </Context.Consumer>
+    </ApiContext.Consumer>
 );
 
 export default PicturePage;
