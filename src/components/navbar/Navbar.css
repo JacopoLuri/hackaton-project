@@ -6,9 +6,10 @@
 #page-wrap { 
    text-align: center; 
    overflow: auto;
-  top: 45%;
-  position: relative;
+   top: 50%;
+   position: relative;
 } 
+
 
 .bm-item {
   display: inline-block;
@@ -51,7 +52,7 @@
 /* General sidebar styles */
 .bm-menu {
   background: url('../../components/images/bod-wallpaper.png');
-  padding: 3.5em 1.5em 0;
+  padding: 4.5em 1.5em 0;
   font-size: 1.15em;
 }
 
