@@ -1,9 +1,13 @@
 .black-pic {
     filter: grayscale(100%);
+    width: 500px;
+    max-height: 700px;
 }
 
-.colored-pic {
+.color-pic {
     filter: none;
+    width: 500px;
+    height: 700px;
 }
 
 @media only screen and (max-width:768px) {
@@ -54,11 +58,6 @@
     left: 140px;
 }
 
-.birds{
-    position: relative;
-    width: 400px;
-}
-
 .syringe {
 width: 160px;
 position: relative;
@@ -80,12 +79,11 @@ left: 230px;
 }
 
 #api-picture {
-    height: 100%;
-    max-width: 100%;
+    height: 600px;
     z-index: -1;
     position: absolute;
     top: 80px;
-    left: 170px;
+    left: 150px;
 }
 
 .frame {
@@ -96,13 +94,16 @@ left: 230px;
     left: 0;
 }
 
+.api-image-container {
+    max-width: 100px;
+}
+
 .framediv {
     position: relative;
     text-align: center;
     margin-bottom: 30px;
     top: 0;
     left: 0;
-    border: 2px solid yellow;
 }
 
 body {
