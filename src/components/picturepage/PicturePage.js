@@ -15,7 +15,7 @@ const PicturePage = () => (
         {(value) => (
             <ApiContext.Consumer>
                 {(api) => (
-                    <>
+                    <div className='body-div'>
                         <Navbar />
                         <div className='picture-body'>
                         <img className='clock-header' src={clock} />
@@ -41,7 +41,7 @@ const PicturePage = () => (
                         </div>
                         
                         </div>
-                    </>
+                    </div>
                 )}
             </ApiContext.Consumer>
         )}
