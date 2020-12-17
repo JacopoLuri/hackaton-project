@@ -17,11 +17,18 @@ const PicturePage = () => (
                     <img className='clock-header' src={clock} />
                     <div className='framediv'>
                         <img className='frame' src={frame}/>
+                        
+                        <div className='api-image-container'>
                         <img src={api.state.randomUrl} id='api-picture' className={api.state.isBlack ? 'black-pic': 'color-pic'}/>
-                    </div>
-                    <div className='btn-container'>
-                        <button className='btn-take-picture' onClick={api.getRandomUrl}>Take A Picture</button>
-                        <button className='btn-colour-picture' onClick={api.colorize}>Colour The Picture</button>
+                        </div>
+                        </div>
+                        <div className='btn-container'>
+                        <button className='btn-take-picture' onClick={api.getRandomUrl}>
+                           Take A Picture
+                        </button>
+                        <button className='btn-colour-picture' onClick={api.colorize}>
+                          Colour The Picture
+                        </button>
                         <div className='picture-div'>
                             <img className='syringe' src={syringe} />
                             <img className='dial' src={dial} />

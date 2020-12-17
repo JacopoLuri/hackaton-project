@@ -1,9 +1,13 @@
 .black-pic {
     filter: grayscale(100%);
+    width: 500px;
+    max-height: 700px;
 }
 
-.colored-pic {
+.color-pic {
     filter: none;
+    width: 500px;
+    height: 700px;
 }
 
 @media only screen and (max-width:768px) {
@@ -58,11 +62,17 @@
         width: 400px;
     }
 
-    .syringe {
-    width: 160px;
-    position: relative;
-    left: 230px;
-    }
+.syringe {
+width: 160px;
+position: relative;
+left: 230px;
+}
+
+.picture-div{
+  text-align:right;
+  margin-top:80px;
+  width: 100%;
+}
 
     .picture-div{
     text-align:right;
@@ -76,14 +86,13 @@
         bottom:0;
     }
 
-    #api-picture {
-        height: 100%;
-        max-width: 100%;
-        z-index: -1;
-        position: absolute;
-        top: 80px;
-        left: 170px;
-    }
+#api-picture {
+    height: 600px;
+    z-index: -1;
+    position: absolute;
+    top: 80px;
+    left: 150px;
+}
 
     .frame {
         width: 90%;
@@ -93,14 +102,17 @@
         left: 0;
     }
 
-    .framediv {
-        position: relative;
-        text-align: center;
-        margin-bottom: 30px;
-        top: 0;
-        left: 0;
-        border: 2px solid yellow;
-    }
+.api-image-container {
+    max-width: 100px;
+}
+
+.framediv {
+    position: relative;
+    text-align: center;
+    margin-bottom: 30px;
+    top: 0;
+    left: 0;
+}
 
     body {
         background: url("../../components/images/bod-wallpaper.jpg");
