@@ -5,3 +5,112 @@
 .colored-pic {
     filter: none;
 }
+
+@media only screen and (max-width:768px) {
+
+.clock-header {
+    width: 300px ;
+    }
+
+.btn-take-picture {
+    height: 70px;
+    width: 250px;
+    margin-left:10px;
+    margin-right:10px;
+    border-radius: 25px;
+    background-image: linear-gradient(rgb(129, 93, 63), rgb(0, 0, 0));
+    color: white;
+    font-size: 20px;  
+    border:0; 
+}
+
+.btn-colour-picture {
+    height: 70px;
+    width: 250px;
+    margin-left:10px;
+    margin-right:10px;
+    border-radius: 25px;
+    background-image: linear-gradient(rgb(184, 134, 55), rgb(114, 88, 31));
+    color: white;
+    font-size: 20px;   
+    border:0; 
+}
+
+.btn-container {
+    text-align: center;
+}
+
+.cog{
+   
+    width: 230px;
+    bottom: 0;
+    right: 0;
+}
+
+.dial {
+    width: 230px;
+    bottom:0;
+    position: relative;
+    left: 140px;
+}
+
+.birds{
+    position: relative;
+    width: 400px;
+}
+
+.syringe {
+width: 160px;
+position: relative;
+left: 230px;
+}
+
+.picture-div{
+  text-align:right;
+  margin-top:80px;
+  width: 100%;
+}
+
+.steampunk-border {
+    position: absolute;
+    left: 0;
+    bottom:0;
+ 
+
+}
+
+#api-picture {
+    height: 100%;
+    max-width: 100%;
+    z-index: -1;
+    position: absolute;
+    top: 80px;
+    left: 170px;
+}
+
+.frame {
+    width: 90%;
+    height: auto;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.framediv {
+    position: relative;
+    text-align: center;
+    margin-bottom: 30px;
+    top: 0;
+    left: 0;
+    border: 2px solid yellow;
+}
+
+body {
+    background: url("../../components/images/bod-wallpaper.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin:0;
+    
+}
+
+}
