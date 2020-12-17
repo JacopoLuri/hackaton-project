@@ -1,16 +1,15 @@
-import Navbar from "./../navbar/Navbar";
-import Footer from "./../footer/Footer";
-import { Context } from "./../../context/Context";
+import Navbar from "../navbar/Navbar";
+import { Context } from "../../context/Context";
 import { ApiContext } from "../../context/ApiContext";
 
-const PageFour = () => (
+const PicturePage = () => (
     <Context.Consumer>
         {(value) => (
             <ApiContext.Consumer>
                 {(api) => (
                     <>
                         <Navbar />
-                        <h1>I AM 4</h1>
+                        <h1>I AM PicturePage</h1>
                         <button onClick={value.test}>
                             context function run example. i console log the world example
                         </button>
@@ -18,7 +17,6 @@ const PageFour = () => (
                             api context function run example. i console log the world
                             apicontext
                         </button>
-                        <Footer />
                     </>
                 )}
             </ApiContext.Consumer>
@@ -26,4 +24,4 @@ const PageFour = () => (
     </Context.Consumer>
 );
 
-export default PageFour;
+export default PicturePage;
