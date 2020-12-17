@@ -27,4 +27,3 @@ const PageFive = () => (
 );
 
 export default PageFive;
-© 2020 GitHub, Inc.
