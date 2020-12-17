@@ -1,0 +1,47 @@
+@media only screen and (max-width: 768px) {
+    @font-face {
+        font-family: 'Princess Sofia';
+        src: url('../../components/fonts/PrincessSofia-Regular.ttf');
+    }
+    @font-face {
+        font-family: 'Tangerine-Regular';
+        src: url('../fonts/Tangerine-Bold.ttf');
+    }
+.home{
+    height: 100vh;
+    background-image: url("../../components/images/home2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.clock-home{
+    width:40%;
+    margin-right: 30%;
+    margin-left:30%;
+}
+.title{
+   font-family: 'Princess Sofia', cursive;
+    color: rgb(224, 214, 156);
+    text-shadow: -7px -3px rgb(55, 55, 56), 3px 7px rgb(54, 48, 43);
+    font-size: 130px;
+    text-align: center;
+}
+.button-image{
+    width :70%;
+    position :absolute;
+    bottom:0;
+    left:15%;
+    
+}
+.home-button{
+    font-family: 'Tangerine-Regular';
+    font-size: 50px;
+    width : 200px;
+    position :absolute;
+    bottom: 11%;
+    left:34%;
+}
+.test{
+    text-decoration: none;
+}
+}
