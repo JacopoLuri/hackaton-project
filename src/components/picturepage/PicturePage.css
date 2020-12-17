@@ -1,3 +1,14 @@
+.black-pic {
+    filter: grayscale(100%);
+    width: 500px;
+    max-height: 700px;
+}
+
+.color-pic {
+    filter: none;
+    width: 500px;
+    height: 700px;
+}
 
 @media only screen and (max-width:768px) {
 
@@ -47,11 +58,6 @@
     left: 140px;
 }
 
-.birds{
-    position: relative;
-    width: 400px;
-}
-
 .syringe {
 width: 160px;
 position: relative;
@@ -72,12 +78,12 @@ left: 230px;
 
 }
 
-.api-picture {
+#api-picture {
     height: 600px;
     z-index: -1;
     position: absolute;
     top: 80px;
-    left: 170px;
+    left: 150px;
 }
 
 .frame {
@@ -86,6 +92,10 @@ left: 230px;
     position: relative;
     top: 0;
     left: 0;
+}
+
+.api-image-container {
+    max-width: 100px;
 }
 
 .framediv {
@@ -97,7 +107,7 @@ left: 230px;
 }
 
 body {
-    background: url("/Users/deanleonard/Documents/hackaton-project/src/components/images/bod-wallpaper.jpg");
+    background: url("../../components/images/bod-wallpaper.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     margin:0;
