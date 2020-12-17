@@ -4,7 +4,7 @@ import { createApi } from "unsplash-js";
 export const ApiContext = React.createContext();
 
 const apiCall = createApi({
-    // accessKey: process.env.REACT_APP_UNSPLASH_KEY,
+    accessKey: process.env.REACT_APP_UNSPLASH_KEY,
 });
 
 class ApiProvider extends Component {
