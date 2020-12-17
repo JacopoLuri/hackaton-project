@@ -62,22 +62,22 @@
         width: 400px;
     }
 
-.syringe {
-width: 160px;
-position: relative;
-left: 230px;
-}
-
-.picture-div{
-  text-align:right;
-  margin-top:80px;
-  width: 100%;
-}
+    .syringe {
+        width: 160px;
+        position: relative;
+        left: 230px;
+        }
 
     .picture-div{
-    text-align:right;
-    margin-top:80px;
-    width: 100%;
+        text-align:right;
+        margin-top:80px;
+        width: 100%;
+    }
+
+    .picture-div{
+        text-align:right;
+        margin-top:80px;
+        width: 100%;
     }
 
     .steampunk-border {
@@ -86,13 +86,13 @@ left: 230px;
         bottom:0;
     }
 
-#api-picture {
-    height: 600px;
-    z-index: -1;
-    position: absolute;
-    top: 80px;
-    left: 150px;
-}
+    #api-picture {
+        height: 600px;
+        z-index: -1;
+        position: absolute;
+        top: 80px;
+        left: 150px;
+    }
 
     .frame {
         width: 90%;
@@ -102,17 +102,17 @@ left: 230px;
         left: 0;
     }
 
-.api-image-container {
-    max-width: 100px;
-}
+    .api-image-container {
+        max-width: 100px;
+    }
 
-.framediv {
-    position: relative;
-    text-align: center;
-    margin-bottom: 30px;
-    top: 0;
-    left: 0;
-}
+    .framediv {
+        position: relative;
+        text-align: center;
+        margin-bottom: 30px;
+        top: 0;
+        left: 0;
+    }
 
     body {
         background: url("../../components/images/bod-wallpaper.jpg");

@@ -1,13 +1,8 @@
-<<<<<<< HEAD
-import Navbar from "./../navbar/Navbar";
-=======
 import React from 'react'
 import './HomePage.css'
 import clock from '../images/clock.gif'
 import button from '../images/button4.png'
 import { Link } from "react-router-dom"
-
->>>>>>> 91e9de71eec5c4e4fc9b0d1260d668bb2b51a8f5
 
 const HomePage = () => (
     <div className="home">
