@@ -6,7 +6,9 @@ import PicturePage from "./components/picturepage/PicturePage";
 import AboutUs from "./components/aboutus/AboutUs";
 
 const App = () => (
-  /* NOTE. IF YOU WANT TO CHANGE THE LINK: CHANGE IT HERE AND INSIDE LINK IN NAVBAR.JS */
+
+  
+
   <Switch>
     <Route exact path="/">
       <HomePage />
