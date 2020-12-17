@@ -1,0 +1,7 @@
+.black-pic {
+    filter: grayscale(100%);
+}
+
+.colored-pic {
+    filter: none;
+}

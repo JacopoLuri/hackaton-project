@@ -4,8 +4,6 @@ import Navbar from "./../navbar/Navbar";
 
 
 const HomePage = () => (
-
-
     <>
      
         <Navbar />
