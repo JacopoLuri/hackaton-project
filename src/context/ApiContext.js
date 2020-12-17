@@ -11,6 +11,7 @@ class ApiProvider extends Component {
     state = {
         apiData: {},
         randomUrl: "",
+        isBlack: false
     };
     
     componentDidMount() {
@@ -26,8 +27,17 @@ class ApiProvider extends Component {
     getRandomUrl = () => {
         this.setState({
             randomUrl: this.state.apiData.results[Math.floor(Math.random() * 30)].urls.regular,
+             isBlack: true
         })
     }
+
+    colorize = () => {
+        this.setState({isBlack: false})
+    }
+    
+    
+
+   
 
     render() {
         return (
@@ -35,6 +45,7 @@ class ApiProvider extends Component {
                 value={{
                     state: this.state,
                     getRandomUrl: this.getRandomUrl,
+                    colorize: this.colorize
                 }}
             >
                 {this.props.children}
