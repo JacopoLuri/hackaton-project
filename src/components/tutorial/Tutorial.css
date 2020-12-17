@@ -1,0 +1,24 @@
+@media only screen and (max-width: 768px) {
+
+body{
+    background-image: url('../images/bod-wallpaper.jpg');
+}
+.tuto-frame{
+    background-image: url('../images/bg.png');
+    width:100vw;
+    height :100vh;
+    
+}
+.title-intro{
+    text-align: center;
+    font-size: 40px;
+}
+.intro-text{
+    position:absolute;
+    font-size: 25px;
+    margin-top: 270px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+}
