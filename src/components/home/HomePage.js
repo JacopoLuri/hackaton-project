@@ -4,7 +4,6 @@ import clock from '../images/clock.gif'
 import button from '../images/button4.png'
 import { Link } from "react-router-dom"
 
-
 const HomePage = () => (
     <div className="home">
     <>

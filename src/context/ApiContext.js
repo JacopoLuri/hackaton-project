@@ -4,7 +4,7 @@ import { createApi } from "unsplash-js";
 export const ApiContext = React.createContext();
 
 const apiCall = createApi({
-    // accessKey: process.env.REACT_APP_UNSPLASH_KEY,
+    accessKey: process.env.REACT_APP_UNSPLASH_KEY,
 });
 
 class ApiProvider extends Component {
@@ -27,7 +27,7 @@ class ApiProvider extends Component {
     getRandomUrl = () => {
         this.setState({
             randomUrl: this.state.apiData.results[Math.floor(Math.random() * 30)].urls.regular,
-             isBlack: true
+            isBlack: true,
         })
     }
 
@@ -35,10 +35,6 @@ class ApiProvider extends Component {
         this.setState({isBlack: false})
     }
     
-    
-
-   
-
     render() {
         return (
             <ApiContext.Provider
