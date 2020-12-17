@@ -28,21 +28,35 @@
         border:0; 
     }
 
-    .btn-colour-picture {
-        height: 70px;
-        width: 250px;
-        margin-left:10px;
-        margin-right:10px;
-        border-radius: 25px;
-        background-image: linear-gradient(rgb(184, 134, 55), rgb(114, 88, 31));
-        color: white;
-        font-size: 20px;   
-        border:0; 
-    }
+.btn-take-picture {
+    height: 70px;
+    width: 250px;
+    margin-left:10px;
+    margin-right:10px;
+    border-radius: 25px;
+    background-image: linear-gradient(rgb(105, 79, 57), rgb(46, 39, 31));
+    color: white;
+    font-size: 20px;  
+    border:0; 
+    font-family: fantasy;
+    font-size: 25px;
+    font-weight: bolder;
+}
 
-    .btn-container {
-        text-align: center;
-    }
+.btn-colour-picture {
+    height: 70px;
+    width: 250px;
+    margin-left:10px;
+    margin-right:10px;
+    border-radius: 25px;
+    background-image: linear-gradient(rgb(184, 134, 55), rgb(114, 88, 31));
+    color: white;
+    font-size: 20px;   
+    border:0; 
+    font-family: fantasy;
+    font-size: 25px;
+    font-weight: bolder;
+}
 
     .cog{
         width: 230px;
@@ -114,11 +128,12 @@
         left: 0;
     }
 
-    body {
-        background: url("../../components/images/bod-wallpaper.jpg");
-        background-repeat: no-repeat;
-        background-size: 100% 100%;
-        margin: 0;
-    }
+.body-div {
+    background: url("../../components/images/bod-wallpaper.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin:0;
+    
+}
 
 }

@@ -9,13 +9,15 @@ import cog from '../../components/images/cog.png'
 import syringe from '../../components/images/syringe.png'
 
 const PicturePage = () => (
-    <ApiContext.Consumer>
-        {(api) => (
-            <>
-                <Navbar />
-                <div className='picture-body'>
-                    <img className='clock-header' src={clock} />
-                    <div className='framediv'>
+   
+   
+            <ApiContext.Consumer>
+                {(api) => (
+                    <div className='body-div'>
+                        <Navbar />
+                        <div className='picture-body'>
+                        <img className='clock-header' src={clock} />
+                        <div className='framediv'>
                         <img className='frame' src={frame}/>
                         
                         <div className='api-image-container'>
@@ -34,11 +36,13 @@ const PicturePage = () => (
                             <img className='dial' src={dial} />
                             <img className='cog' src={cog} />
                         </div>
-                    </div> 
-                </div>
-            </>
-        )}
-    </ApiContext.Consumer>
+                        </div>
+                        
+                        </div>
+                    </div>
+                )}
+            </ApiContext.Consumer>
+
 );
 
 export default PicturePage;
