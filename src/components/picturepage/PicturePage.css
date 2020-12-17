@@ -12,8 +12,20 @@
 
 @media only screen and (max-width:768px) {
 
-.clock-header {
-    width: 300px ;
+    .clock-header {
+        width: 300px ;
+        }
+
+    .btn-take-picture {
+        height: 70px;
+        width: 250px;
+        margin-left:10px;
+        margin-right:10px;
+        border-radius: 25px;
+        background-image: linear-gradient(rgb(129, 93, 63), rgb(0, 0, 0));
+        color: white;
+        font-size: 20px;  
+        border:0; 
     }
 
 .btn-take-picture {
@@ -22,10 +34,13 @@
     margin-left:10px;
     margin-right:10px;
     border-radius: 25px;
-    background-image: linear-gradient(rgb(129, 93, 63), rgb(0, 0, 0));
+    background-image: linear-gradient(rgb(105, 79, 57), rgb(46, 39, 31));
     color: white;
     font-size: 20px;  
     border:0; 
+    font-family: fantasy;
+    font-size: 25px;
+    font-weight: bolder;
 }
 
 .btn-colour-picture {
@@ -38,75 +53,82 @@
     color: white;
     font-size: 20px;   
     border:0; 
+    font-family: fantasy;
+    font-size: 25px;
+    font-weight: bolder;
 }
 
-.btn-container {
-    text-align: center;
-}
+    .cog{
+        width: 230px;
+        bottom: 0;
+        right: 0;
+    }
 
-.cog{
-   
-    width: 230px;
-    bottom: 0;
-    right: 0;
-}
+    .dial {
+        width: 230px;
+        bottom:0;
+        position: relative;
+        left: 140px;
+    }
 
-.dial {
-    width: 230px;
-    bottom:0;
-    position: relative;
-    left: 140px;
-}
+    .birds{
+        position: relative;
+        width: 400px;
+    }
 
-.syringe {
-width: 160px;
-position: relative;
-left: 230px;
-}
+    .syringe {
+        width: 160px;
+        position: relative;
+        left: 230px;
+        }
 
-.picture-div{
-  text-align:right;
-  margin-top:80px;
-  width: 100%;
-}
+    .picture-div{
+        text-align:right;
+        margin-top:80px;
+        width: 100%;
+    }
 
-.steampunk-border {
-    position: absolute;
-    left: 0;
-    bottom:0;
- 
+    .picture-div{
+        text-align:right;
+        margin-top:80px;
+        width: 100%;
+    }
 
-}
+    .steampunk-border {
+        position: absolute;
+        left: 0;
+        bottom:0;
+    }
 
-#api-picture {
-    height: 600px;
-    z-index: -1;
-    position: absolute;
-    top: 80px;
-    left: 150px;
-}
+    #api-picture {
+        height: 600px;
+        z-index: -1;
+        position: absolute;
+        top: 80px;
+        left: 150px;
+    }
 
-.frame {
-    width: 90%;
-    height: auto;
-    position: relative;
-    top: 0;
-    left: 0;
-}
+    .frame {
+        width: 90%;
+        height: auto;
+        position: relative;
+        top: 0;
+        left: 0;
+    }
 
-.api-image-container {
-    max-width: 100px;
-}
+    .api-image-container {
+        max-width: 100px;
+    }
 
-.framediv {
-    position: relative;
-    text-align: center;
-    margin-bottom: 30px;
-    top: 0;
-    left: 0;
-}
+    .framediv {
+        position: relative;
+        text-align: center;
+        margin-bottom: 30px;
+        top: 0;
+        left: 0;
+    }
 
-body {
+.body-div {
     background: url("../../components/images/bod-wallpaper.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;

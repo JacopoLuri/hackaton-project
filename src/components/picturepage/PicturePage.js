@@ -1,6 +1,5 @@
 import Navbar from "../navbar/Navbar";
 import React from 'react'
-import { Context } from "../../context/Context";
 import { ApiContext } from "../../context/ApiContext";
 import './PicturePage.css'
 import clock from '../../components/images/clock.png'
@@ -11,11 +10,10 @@ import syringe from '../../components/images/syringe.png'
 
 const PicturePage = () => (
    
-    <Context.Consumer>
-        {(value) => (
+   
             <ApiContext.Consumer>
                 {(api) => (
-                    <>
+                    <div className='body-div'>
                         <Navbar />
                         <div className='picture-body'>
                         <img className='clock-header' src={clock} />
@@ -41,11 +39,10 @@ const PicturePage = () => (
                         </div>
                         
                         </div>
-                    </>
+                    </div>
                 )}
             </ApiContext.Consumer>
-        )}
-    </Context.Consumer>
+
 );
 
 export default PicturePage;

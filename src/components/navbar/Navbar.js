@@ -6,17 +6,17 @@ import { slide as Menu } from "react-burger-menu";
 
 const Navbar = (props) => {
     return(
-   <Menu {...props}>
-    <Link to="/">HOME</Link>
-    <Link to="/page1">Tutorial</Link>
-    <Link to="/page2">Take A Picture</Link>
-    <Link to="/page3">About Us</Link>
-   </Menu>
+        <div className='link-div'>
+            <Menu {...props}>
+                <Link className='link'  to="/">HOME</Link>
+                <Link className='link' to="/page1">TUTORIAL</Link>
+                <Link className='link' to="/page2">PICTURE COLOUR</Link>
+                <Link className='link' to="/page3">ABOUT US</Link>
+            </Menu>
+        </div>
     )
     
 }
-    /* IF YOU CHANGE THE LINK TO... REMEMBER TO CHANGE IT ON APP.JS ROUTE AS WELL. */
-   
 ;
 
 export default Navbar;
