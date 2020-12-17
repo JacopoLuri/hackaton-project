@@ -1,16 +1,15 @@
-import Navbar from "./../navbar/Navbar";
-import Footer from "./../footer/Footer";
-import { Context } from "./../../context/Context";
+import Navbar from "../navbar/Navbar";
+import { Context } from "../../context/Context";
 import { ApiContext } from "../../context/ApiContext";
 
-const PageFive = () => (
+const Tutorial = () => (
     <Context.Consumer>
         {(value) => (
             <ApiContext.Consumer>
                 {(api) => (
                     <>
                         <Navbar />
-                        <h1>I AM 5</h1>
+                        <h1>I AM Tutorial</h1>
                         <button onClick={value.test}>
                             context function run example. i console log the world example
                         </button>
@@ -18,7 +17,6 @@ const PageFive = () => (
                             api context function run example. i console log the world
                             apicontext
                         </button>
-                        <Footer />
                     </>
                 )}
             </ApiContext.Consumer>
@@ -26,5 +24,4 @@ const PageFive = () => (
     </Context.Consumer>
 );
 
-export default PageFive;
-© 2020 GitHub, Inc.
+export default Tutorial;
