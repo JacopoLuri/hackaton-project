@@ -11,12 +11,14 @@ class Provider extends Component {
         console.log(this.state.example);
     };
 
+    
     render() {
         return (
             <Context.Provider
                 value={{
                     state: this.state,
                     test: this.test,
+                  
                     /* if you write new functions write them here as i did with the test function */
                 }}
             >
