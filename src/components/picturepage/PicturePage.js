@@ -10,13 +10,8 @@ const PicturePage = () => (
                     <>
                         <Navbar />
                         <h1>I AM PicturePage</h1>
-                        <button onClick={value.test}>
-                            context function run example. i console log the world example
-                        </button>
-                        <button onClick={api.test}>
-                            api context function run example. i console log the world
-                            apicontext
-                        </button>
+                        <button onClick={api.getRandomUrl}>Take a picture</button>
+                        <img src={api.state.randomUrl} />
                     </>
                 )}
             </ApiContext.Consumer>
