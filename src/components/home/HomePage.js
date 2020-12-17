@@ -13,7 +13,7 @@ const HomePage = () => (
         <h1 className="title">TempEra</h1>
         <div>
         <img  className="button-image" src={button} alt=""/>
-        <span className="home-button"><Link to="/page1">WELCOME</Link> </span>
+        <span className="home-button"><Link to="/page1">WELCOME</Link></span>
         </div>
     </div>
 );
