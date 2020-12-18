@@ -1,4 +1,6 @@
 # Hackton Project: "TempEra"
+![Javascript](https://aleen42.github.io/badges/src/javascript.svg)
+![React](https://aleen42.github.io/badges/src/react.svg)
 
 ## made by console.log(gers) for Wild Code School
 - Roxana Florea https://github.com/roxana-florea
