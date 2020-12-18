@@ -1,151 +1,143 @@
 .black-pic {
-    filter: grayscale(100%);
-    width: 500px;
-    max-height: 700px;
+  filter: grayscale(100%);
+  width: 500px;
+  max-height: 700px;
 }
 
 .color-pic {
-    filter: none;
-    width: 500px;
-    height: 700px;
+  filter: none;
+  width: 500px;
+  height: 700px;
 }
 
-@media only screen and (max-width:768px) {
+@media only screen and (max-width: 768px) {
+  .clock-header {
+    width: 300px;
+  }
 
-    .clock-header {
-        width: 300px ;
-        }
+  .picture-btn-container {
+    text-align: center;
+  }
 
-
-        .picture-btn-container {
-            text-align: center;
-        }
-
-    .btn-take-picture {
-        height: 70px;
-        width: 250px;
-        margin-left:10px;
-        margin-right:10px;
-        border-radius: 25px;
-        background-image: linear-gradient(rgb(129, 93, 63), rgb(0, 0, 0));
-        color: white;
-        font-size: 20px;  
-        border:0; 
-    } */
-.button-container{
-    display:flex;
-   
-}
-.btn-take-picture {
-    
+  .btn-take-picture {
     height: 70px;
     width: 250px;
-    margin-left:70px;
-   
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 25px;
+    background-image: linear-gradient(rgb(129, 93, 63), rgb(0, 0, 0));
+    color: white;
+    font-size: 20px;
+    border: 0;
+  }
+  */ .button-container {
+    display: flex;
+  }
+  .btn-take-picture {
+    height: 70px;
+    width: 250px;
+    margin-left: 70px;
+
     border-radius: 25px;
 
     background-image: linear-gradient(rgb(34, 20, 8), rgb(56, 39, 20));
     color: white;
-    font-size: 20px;  
-    border:0; 
+    font-size: 20px;
+    border: 0;
     font-family: fantasy;
     font-size: 25px;
     font-weight: bolder;
-    outline:none;
+    outline: none;
     text-shadow: 0px 0px 10px rgb(223, 223, 223);
+  }
 
-}
-
-.btn-colour-picture {
-    
+  .btn-colour-picture {
     height: 70px;
     width: 250px;
     margin-left: 130px;
-    
+
     border-radius: 25px;
     background-image: linear-gradient(rgb(129, 85, 13), rgb(70, 45, 18));
     color: white;
-    font-size: 20px;   
-    border:0; 
+    font-size: 20px;
+    border: 0;
     font-family: fantasy;
     font-size: 25px;
     font-weight: bolder;
-    outline:none;
+    outline: none;
     text-shadow: 0px 0px 10px rgb(248, 248, 248);
+  }
 
-}
+  .cog {
+    width: 230px;
+    bottom: 0;
+    right: 0;
+  }
 
-    .cog{
-        width: 230px;
-        bottom: 0;
-        right: 0;
-    }
+  .dial {
+    width: 230px;
+    bottom: 0;
+    position: relative;
+    left: 140px;
+  }
 
-    .dial {
-        width: 230px;
-        bottom:0;
-        position: relative;
-        left: 140px;
-    }
+  .syringe {
+    width: 160px;
+    position: relative;
+    left: 230px;
+  }
 
-    .syringe {
-        width: 160px;
-        position: relative;
-        left: 230px;
-        }
+  .picture-div {
+    text-align: right;
+    margin-top: 80px;
+    width: 100%;
+  }
 
-    .picture-div{
-        text-align:right;
-        margin-top:80px;
-        width: 100%;
-    }
+  .picture-div {
+    text-align: right;
+    margin-top: 80px;
+    width: 100%;
+  }
 
-    .picture-div{
-        text-align:right;
-        margin-top:80px;
-        width: 100%;
-    }
+  .steampunk-border {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+  }
 
-    .steampunk-border {
-        position: absolute;
-        left: 0;
-        bottom:0;
-    }
+  #api-picture {
+    height: 600px;
+    /* z-index: -1; */
+    position: absolute;
+    top: 80px;
+    left: 150px;
+  }
 
-    #api-picture {
-        height: 600px;
-        /* z-index: -1; */
-        position: absolute;
-        top: 80px;
-        left: 150px;
-    }
+  .frame {
+    width: 90%;
+    height: auto;
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: +1;
+  }
 
-    .frame {
-        width: 90%;
-        height: auto;
-        position: relative;
-        top: 0;
-        left: 0;
-        z-index: +1;
-    }
+  .api-image-container {
+    max-width: 100px;
+  }
 
-    .api-image-container {
-        max-width: 100px;
-    }
+  .framediv {
+    position: relative;
+    text-align: center;
+    margin-bottom: 30px;
+    top: 0;
+    left: 0;
+  }
 
-    .framediv {
-        position: relative;
-        text-align: center;
-        margin-bottom: 30px;
-        top: 0;
-        left: 0;
-    }
-
-.body-div {
+  .body-div {
     background: url("../../components/images/bod-wallpaper.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    margin:0;
-}
-
+    margin: 0;
+  }
 }
