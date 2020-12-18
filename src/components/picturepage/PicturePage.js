@@ -29,14 +29,15 @@ const PicturePage = () => (
                            Take A Picture
                         </button>
                         <button className='btn-colour-picture' onClick={api.colorize}>
-                          Colour The Picture
+                          Colorize
                         </button>
+                        </div>
                         <div className='picture-div'>
                             <img className='syringe' src={syringe} />
                             <img className='dial' src={dial} />
                             <img className='cog' src={cog} />
                         </div>
-                        </div>
+                       
                         
                         </div>
                     </div>
