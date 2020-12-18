@@ -2,7 +2,7 @@
 ![Javascript](https://aleen42.github.io/badges/src/javascript.svg)
 ![React](https://aleen42.github.io/badges/src/react.svg)
 
-## made by console.log(gers) for Wild Code School
+## Made by console.log(gers) for Wild Code School
 - Roxana Florea https://github.com/roxana-florea
 - Fabien Lallement https://github.com/Befa222
 - Dean Leonard https://github.com/Deanleonard26
