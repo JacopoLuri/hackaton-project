@@ -14,15 +14,15 @@ const PicturePage = () => (
       <div className="body-div">
         <Navbar />
         <div className="picture-body">
-          <img className="clock-header" src={clock} />
+          <img className="clock-header" src={clock} alt="victorian clock" />
           <div className="framediv">
-            <img className="frame" src={frame} />
-
+            <img className="frame" src={frame} alt="" />
             <div className="api-image-container">
               <img
                 src={api.state.randomUrl}
                 id="api-picture"
                 className={api.state.isBlack ? "black-pic" : "color-pic"}
+                alt="from user"
               />
             </div>
           </div>
@@ -35,9 +35,9 @@ const PicturePage = () => (
             </button>
           </div>
           <div className="picture-div">
-            <img className="syringe" src={syringe} />
-            <img className="dial" src={dial} />
-            <img className="cog" src={cog} />
+            <img className="syringe" src={syringe} alt="" />
+            <img className="dial" src={dial} alt="" />
+            <img className="cog" src={cog} alt="" />
           </div>
         </div>
       </div>
