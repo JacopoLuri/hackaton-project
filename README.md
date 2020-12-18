@@ -1,4 +1,4 @@
-# Hackton Project: "TempEra"
+# Hackaton Project: "TempEra"
 ![Javascript](https://aleen42.github.io/badges/src/javascript.svg)
 ![React](https://aleen42.github.io/badges/src/react.svg)
 
