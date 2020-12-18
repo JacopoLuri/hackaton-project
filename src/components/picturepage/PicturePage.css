@@ -65,6 +65,17 @@
     text-shadow: 0px 0px 10px rgba(0, 0, 0, 1);
   }
 
+  .btn-take-picture,
+  .btn-colour-picture {
+    transition: all 500ms;
+  }
+
+  .btn-take-picture:hover,
+  .btn-colour-picture:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+  }
+
   .cog {
     width: 230px;
     bottom: 0;

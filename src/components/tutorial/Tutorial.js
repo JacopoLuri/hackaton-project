@@ -14,7 +14,7 @@ const Tutorial = () => (
         col'r appeareth wh're. Black hath used to beest.
       </p>
     </div>
-        <button className="tuto-button"><Link to="/page2" style={{ textDecoration: "none", color: "white", fontSize: 25 }}>
+        <button className="tuto-button"><Link to="/page2" style={{ textDecoration: "none", color: "antiquewhite", fontSize: 25 }}>
         Presseth button to starteth
         </Link></button>
   </div>
