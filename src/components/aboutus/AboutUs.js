@@ -12,6 +12,7 @@ const AboutUs = () => (
         className="about-link"
         href="https://github.com/roxana-florea"
         target="_blank"
+        rel="noreferrer"
       >
         <img src={githubLogo} alt="github logo icon" />
         <p>Roxana Florea</p>
@@ -20,6 +21,7 @@ const AboutUs = () => (
         className="about-link"
         href="https://github.com/Befa222"
         target="_blank"
+        rel="noreferrer"
       >
         <img src={githubLogo} alt="github logo icon" />
         <p>Fabien Lallement</p>
@@ -28,6 +30,7 @@ const AboutUs = () => (
         className="about-link"
         href="https://github.com/Deanleonard26"
         target="_blank"
+        rel="noreferrer"
       >
         <img src={githubLogo} alt="github logo icon" />
         <p>Dean Leonard</p>
@@ -36,6 +39,7 @@ const AboutUs = () => (
         className="about-link"
         href="https://github.com/JacopoLuri"
         target="_blank"
+        rel="noreferrer"
       >
         <img src={githubLogo} alt="github logo icon" />
         <p>Jacopo Luri</p>
@@ -44,6 +48,7 @@ const AboutUs = () => (
         className="about-link"
         href="https://github.com/nphalen29"
         target="_blank"
+        rel="noreferrer"
       >
         <img src={githubLogo} alt="github logo icon" />
         <p>Nikolai Phalen</p>
