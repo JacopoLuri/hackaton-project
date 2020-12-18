@@ -2,12 +2,14 @@
   height: 100vh;
 }
 
-#page-wrap {
-  text-align: center;
-  overflow: auto;
-  top: 45%;
-  position: relative;
-}
+#page-wrap { 
+   text-align: center; 
+   overflow: auto;
+   top: 50%;
+   position: relative;
+   
+} 
+
 
 .bm-item {
   display: inline-block;
@@ -15,7 +17,7 @@
   /* Our sidebar item styling */
   text-decoration: none;
   margin-bottom: 10px;
-  color: #d1d1d1;
+  color: #ffffff;
   transition: color 0.2s;
 }
 
@@ -25,15 +27,18 @@
 
 .bm-burger-button {
   position: fixed;
-  width: 36px;
-  height: 30px;
-  right: 36px;
-  top: 36px;
+  width: 56px;
+  height: 40px;
+  right: 56px;
+  top: 56px;
+  outline: none;
+  text-decoration: none;
+ 
 }
 
 /* Color/shape of burger icon bars */
 .bm-burger-bars {
-  background: #373a47;
+  background: antiquewhite;
 }
 
 /* Position and sizing of clickable cross button */
@@ -42,17 +47,12 @@
   width: 24px;
 }
 
-/* Color/shape of close button cross */
-.bm-cross {
-  background: #bdc3c7;
-}
-
 /* General sidebar styles */
 .bm-menu {
-  background: url("../../components/images/bod-wallpaper.png");
-  padding: 3.5em 1.5em 0;
+  background: url('../../components/images/bod-wallpaper.png');
+  padding: 4.5em 1.5em 0;
   font-size: 1.15em;
-  overflow: hidden;
+  height: 50px;
 }
 
 /* Morph shape necessary with bubble or elastic */
@@ -63,6 +63,7 @@
 /* Wrapper for item list */
 .bm-item-list {
   color: #b8b7ad;
+  height: 100px;
 }
 
 /* Styling of overlay */
@@ -74,13 +75,19 @@
   margin-bottom: 100px;
   color: black;
   font-size: 30px;
-  margin-left: 10px;
-  margin-top: 100px;
-  font-weight: bolder;
-
+  font-weight:bolder;
   font-family: fantasy;
+  outline:none;
+  text-decoration: none;
+  text-shadow: 0px 0px 10px rgb(102, 102, 102);
+
 }
 
 .link-div {
   text-align: left;
+ 
+}
+
+.bm-cross-button {
+  display:none;
 }

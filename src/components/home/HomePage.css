@@ -34,11 +34,11 @@
     
 }
 .home-button{
-    font-family: 'Tangerine-Regular';
+    font-family: 'arial';
     font-size: 50px;
     width : 200px;
     position :absolute;
-    bottom: 11%;
+    bottom: 10.5%;
     left:34%;
 }
 .test{
