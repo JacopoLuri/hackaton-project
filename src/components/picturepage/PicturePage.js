@@ -24,7 +24,7 @@ const PicturePage = () => (
                         <img src={api.state.randomUrl} id='api-picture' className={api.state.isBlack ? 'black-pic': 'color-pic'}/>
                         </div>
                         </div>
-                        <div className='btn-container'>
+                        <div className='picture-btn-container'>
                         <button className='btn-take-picture' onClick={api.getRandomUrl}>
                            Take A Picture
                         </button>

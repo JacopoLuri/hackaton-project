@@ -16,7 +16,12 @@
         width: 300px ;
         }
 
-    /* .btn-take-picture {
+
+        .picture-btn-container {
+            text-align: center;
+        }
+
+    .btn-take-picture {
         height: 70px;
         width: 250px;
         margin-left:10px;
@@ -38,12 +43,17 @@
     margin-left:70px;
    
     border-radius: 25px;
-    background-image: linear-gradient(rgb(105, 79, 57), rgb(46, 39, 31));
-    color: white; 
+
+    background-image: linear-gradient(rgb(34, 20, 8), rgb(56, 39, 20));
+    color: white;
+    font-size: 20px;  
     border:0; 
     font-family: fantasy;
     font-size: 25px;
     font-weight: bolder;
+    outline:none;
+    text-shadow: 0px 0px 10px rgb(223, 223, 223);
+
 }
 
 .btn-colour-picture {
@@ -53,12 +63,16 @@
     margin-left: 130px;
     
     border-radius: 25px;
-    background-image: linear-gradient(rgb(184, 134, 55), rgb(114, 88, 31));
-    color: white;  
+    background-image: linear-gradient(rgb(129, 85, 13), rgb(70, 45, 18));
+    color: white;
+    font-size: 20px;   
     border:0; 
     font-family: fantasy;
     font-size: 25px;
     font-weight: bolder;
+    outline:none;
+    text-shadow: 0px 0px 10px rgb(248, 248, 248);
+
 }
 
     .cog{
@@ -72,11 +86,6 @@
         bottom:0;
         position: relative;
         left: 140px;
-    }
-
-    .birds{
-        position: relative;
-        width: 400px;
     }
 
     .syringe {
@@ -105,7 +114,7 @@
 
     #api-picture {
         height: 600px;
-        z-index: -1;
+        /* z-index: -1; */
         position: absolute;
         top: 80px;
         left: 150px;
@@ -117,6 +126,7 @@
         position: relative;
         top: 0;
         left: 0;
+        z-index: +1;
     }
 
     .api-image-container {

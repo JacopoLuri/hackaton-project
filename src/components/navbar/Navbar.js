@@ -8,10 +8,10 @@ const Navbar = (props) => {
     return(
         <div className='link-div'>
             <Menu {...props}>
-                <Link className='link'  to="/">HOME</Link>
-                <Link className='link' to="/page1">TUTORIAL</Link>
-                <Link className='link' to="/page2">PICTURE COLOUR</Link>
-                <Link className='link' to="/page3">ABOUT US</Link>
+                <Link className='link'  to="/">Home</Link>
+                <Link className='link' to="/page1">Tutorial</Link>
+                <Link className='link' to="/page2">Picture Colour</Link>
+                <Link className='link' to="/page3">About Us</Link>
             </Menu>
         </div>
     )
