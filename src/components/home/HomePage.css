@@ -20,7 +20,7 @@
   }
   .title {
     font-family: "Princess Sofia", cursive;
-    color: rgb(224, 214, 156);
+    color: antiquewhite;
     text-shadow: -7px -3px rgb(55, 55, 56), 3px 7px rgb(54, 48, 43);
     font-size: 130px;
     text-align: center;
@@ -38,6 +38,11 @@
     position: absolute;
     bottom: 10.5%;
     left: 34%;
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 1);
+    transition: all 500ms;
+  }
+  .home-button:hover {
+    transform: scale(1.05);
   }
   .test {
     text-decoration: none;

@@ -1,3 +1,7 @@
+* {
+  outline: none !important;
+}
+
 #App {
   height: 100vh;
 }
@@ -11,16 +15,16 @@
 
 .bm-item {
   display: inline-block;
-
   /* Our sidebar item styling */
   text-decoration: none;
   margin-bottom: 10px;
-  color: #ffffff;
-  transition: color 0.2s;
+  color: antiquewhite !important;
+  transition: all 500ms;
+  text-shadow: 0px 0px 10px rgba(0, 0, 0, 1) !important;
 }
 
 .bm-item:hover {
-  color: white;
+  transform: scale(1.1);
 }
 
 .bm-burger-button {
@@ -29,8 +33,13 @@
   height: 40px;
   right: 56px;
   top: 56px;
-  outline: none;
   text-decoration: none;
+  transition: all 500ms;
+}
+
+.bm-burger-button:hover {
+  transform: scale(1.1);
+  color: darkgoldenrod;
 }
 
 /* Color/shape of burger icon bars */

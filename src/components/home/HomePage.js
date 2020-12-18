@@ -11,7 +11,7 @@ const HomePage = () => (
     <div>
       <img className="button-image" src={button} alt="" />
       <span className="home-button">
-        <Link to="/page1" style={{ textDecoration: "none", color: "black" }}>
+        <Link to="/page1" style={{ textDecoration: "none", color: "antiquewhite" }}>
           WELCOME
         </Link>
       </span>
