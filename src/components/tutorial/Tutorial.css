@@ -31,4 +31,19 @@
     color: antiquewhite;
     text-shadow: 0px 0px 10px rgba(0, 0, 0, 1);
   }
+  .tuto-button{
+    position: absolute;
+    bottom :0;
+    left :31%;
+    margin-bottom: 100px;
+    border-radius: 25px;
+    background-image: linear-gradient(rgb(180, 121, 73), rgb(0, 0, 0));
+    color: white;
+    font-size: 20px;
+    border: 0;
+    height : 70px;
+    text-shadow: 0px 0px 10px rgb(223, 223, 223);
+    font-family: 'fantasy';
+    padding :3%;
+  }
 }
