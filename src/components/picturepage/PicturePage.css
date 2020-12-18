@@ -16,6 +16,7 @@
         width: 300px ;
         }
 
+
         .picture-btn-container {
             text-align: center;
         }
@@ -30,14 +31,19 @@
         color: white;
         font-size: 20px;  
         border:0; 
-    }
-
+    } */
+.button-container{
+    display:flex;
+   
+}
 .btn-take-picture {
+    
     height: 70px;
     width: 250px;
-    margin-left:10px;
-    margin-right:10px;
+    margin-left:70px;
+   
     border-radius: 25px;
+
     background-image: linear-gradient(rgb(34, 20, 8), rgb(56, 39, 20));
     color: white;
     font-size: 20px;  
@@ -51,10 +57,11 @@
 }
 
 .btn-colour-picture {
+    
     height: 70px;
     width: 250px;
-    margin-left:10px;
-    margin-right:10px;
+    margin-left: 130px;
+    
     border-radius: 25px;
     background-image: linear-gradient(rgb(129, 85, 13), rgb(70, 45, 18));
     color: white;
