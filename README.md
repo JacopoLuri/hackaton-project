@@ -22,6 +22,7 @@ $ yarn install
 - [Purpose](#purpose)
 - [TempEra](#tempera)
 - [Wireframes Packages and Softwares used](#wireframes-packages-and-softwares-used)
+- [Documentation](#documentation)
 
 ## Purpose
 5 students from WCS full-stack web dev course in our first hackaton experience, we were asked to make a webapp in 24 hours.
